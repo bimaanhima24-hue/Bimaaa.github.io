@@ -65,17 +65,27 @@
     </div>
 </section>
 
- <!-- EDUCATION -->
+<!-- EDUCATION -->
 <section id="education" class="section">
     <div class="container">
         <h2>Education</h2>
         <div class="about-content">
-            <!--💡UPDATE: Change the image to your own profile photo in assets/images/-->
-            <img src="pas foto 3x4,.jpg" alt="Bima" class="profile-photo">
+            <!-- Ganti src dengan nama file foto kuliah Anda -->
+            <img src="assets/images/foto-kuliah.jpg" alt="Foto Perkuliahan Bima" class="education-photo">
+            .education-photo {
+    width: 100%;
+    max-width: 300px; /* Sesuaikan ukuran lebar maksimum foto */
+    height: auto;     /* Menjaga proporsi asli gambar agar tidak gepeng */
+    border-radius: 8px; /* Membuat sudut kotak sedikit melengkung (opsional) */
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan lembut */
+}
+            
             <div class="about-text">
-            <p style="text-justify: inter-word;"> 
-                <p>Seorang fresh graduate di bidang Operation Management. Terlibat dalam beberapa proyek penelitian, baik itu penelitian kuliah luar kampus maupun penelitian dosen tingkat universitas untuk mengembangkan keterampilan dalam mengolah data dan statistik. Memiliki pemahaman tentang data cleaning , data analysis dan data visualization. </p>
-                <p>Saat ini saya mencari kesempatan untuk mengembangkan kemampuan saya dalam pengolahan data. Portofolio ini menampilkan project yang pernah saya lakukan.</p>
+                <p style="text-justify: inter-word;">
+                    <!-- Masukkan teks deskripsi pendidikan Anda di sini -->
+                    <p>Riwayat pendidikan atau informasi singkat mengenai masa perkuliahan Anda.</p>
+                </p>
             </div>
         </div>
     </div>
